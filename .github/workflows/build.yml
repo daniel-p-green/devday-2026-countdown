@@ -1,0 +1,13 @@
+name: Build
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: macos-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./Scripts/test.sh
+      - run: xcodebuild -project DevDay2026.xcodeproj -scheme DevDayMac -derivedDataPath "$RUNNER_TEMP/mac" CODE_SIGNING_ALLOWED=NO build
+      - run: xcodebuild -project DevDay2026.xcodeproj -scheme DevDayiOS -sdk iphonesimulator -derivedDataPath "$RUNNER_TEMP/ios" CODE_SIGNING_ALLOWED=NO build

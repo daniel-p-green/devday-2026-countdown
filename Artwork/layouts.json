@@ -1,0 +1,2433 @@
+[
+  {
+    "day": 21,
+    "animal_bounds": [
+      116,
+      422,
+      694,
+      946
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          85,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          86,
+          754,
+          175
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          185,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          197,
+          334,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          185,
+          368,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "21",
+        "bounds": [
+          801,
+          594,
+          1057,
+          804
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          801,
+          837,
+          1150,
+          909
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1172,
+          348,
+          1210
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1183,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          640,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "animal_bounds": [
+      594,
+      623,
+      1211,
+      973
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          84,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          755,
+          175
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          184,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          184,
+          369,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "20",
+        "bounds": [
+          96,
+          509,
+          448,
+          725
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          92,
+          753,
+          454,
+          827
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          91,
+          1171,
+          348,
+          1209
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1181,
+          379,
+          1195
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1171,
+          642,
+          1201
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "animal_bounds": [
+      250,
+      372,
+      1164,
+      733
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          84,
+          397,
+          173
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          754,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          90,
+          184,
+          113,
+          268
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          125,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          346,
+          184,
+          368,
+          268
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "19",
+        "bounds": [
+          91,
+          815,
+          362,
+          1011
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          90,
+          1029,
+          419,
+          1097
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1172,
+          348,
+          1209
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          366,
+          1182,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          397,
+          1172,
+          642,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "animal_bounds": [
+      344,
+      317,
+      936,
+      732
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          85,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          755,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          184,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          184,
+          368,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "18",
+        "bounds": [
+          484,
+          805,
+          799,
+          1016
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          469,
+          1035,
+          814,
+          1106
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          91,
+          1172,
+          348,
+          1210
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1183,
+          378,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          640,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "animal_bounds": [
+      118,
+      786,
+      648,
+      977
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          87,
+          85,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          86,
+          754,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          90,
+          184,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          125,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          346,
+          184,
+          368,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "17",
+        "bounds": [
+          807,
+          594,
+          1065,
+          803
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          802,
+          836,
+          1150,
+          909
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1172,
+          348,
+          1209
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1182,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          640,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "animal_bounds": [
+      128,
+      426,
+      713,
+      942
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          84,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          754,
+          175
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          185,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          197,
+          334,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          185,
+          368,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "16",
+        "bounds": [
+          801,
+          591,
+          1072,
+          803
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          801,
+          833,
+          1150,
+          906
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1172,
+          348,
+          1209
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1182,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          641,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "animal_bounds": [
+      111,
+      422,
+      703,
+      967
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          87,
+          84,
+          397,
+          173
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          754,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          90,
+          184,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          125,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          346,
+          184,
+          369,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "15",
+        "bounds": [
+          791,
+          594,
+          1070,
+          806
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          801,
+          837,
+          1150,
+          910
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1172,
+          348,
+          1209
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1182,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          641,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "animal_bounds": [
+      378,
+      312,
+      902,
+      753
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          83,
+          398,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          755,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          90,
+          184,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          346,
+          184,
+          369,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "14",
+        "bounds": [
+          510,
+          823,
+          793,
+          1012
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          471,
+          1032,
+          815,
+          1106
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          91,
+          1172,
+          348,
+          1210
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1183,
+          378,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          640,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "animal_bounds": [
+      219,
+      221,
+      1193,
+      898
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          85,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          754,
+          175
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          185,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          196,
+          334,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          185,
+          368,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "13",
+        "bounds": [
+          903,
+          866,
+          1183,
+          1063
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          876,
+          1082,
+          1198,
+          1143
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          91,
+          1172,
+          348,
+          1210
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1183,
+          378,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          640,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "animal_bounds": [
+      241,
+      660,
+      1040,
+      1016
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          84,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          755,
+          175
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          185,
+          113,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          126,
+          196,
+          335,
+          261
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          185,
+          368,
+          269
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "12",
+        "bounds": [
+          904,
+          352,
+          1168,
+          552
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "days to go",
+        "bounds": [
+          899,
+          575,
+          1197,
+          636
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1172,
+          348,
+          1209
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1182,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          640,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "animal_bounds": [
+      471,
+      612,
+      1154,
+      914
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          79,
+          111,
+          352,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          81,
+          185,
+          361,
+          285
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          81,
+          324,
+          113,
+          394
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          322,
+          283,
+          394
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "11",
+        "bounds": [
+          95,
+          554,
+          304,
+          734
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          89,
+          805,
+          320,
+          869
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          86,
+          906,
+          325,
+          961
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          83,
+          1125,
+          1093,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "animal_bounds": [
+      425,
+      313,
+      1142,
+      958
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          79,
+          110,
+          354,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          81,
+          185,
+          361,
+          285
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          81,
+          324,
+          113,
+          394
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          323,
+          282,
+          394
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "10",
+        "bounds": [
+          95,
+          552,
+          336,
+          737
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          89,
+          805,
+          316,
+          869
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          87,
+          906,
+          324,
+          960
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          83,
+          1125,
+          1094,
+          1181
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "animal_bounds": [
+      756,
+      192,
+      1165,
+      1054
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          97,
+          106,
+          371,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          100,
+          185,
+          378,
+          282
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          99,
+          320,
+          113,
+          390
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          319,
+          300,
+          390
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "9",
+        "bounds": [
+          111,
+          547,
+          244,
+          732
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          107,
+          801,
+          326,
+          863
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          106,
+          902,
+          335,
+          956
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          101,
+          1125,
+          1112,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "animal_bounds": [
+      507,
+      399,
+      1032,
+      956
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          90,
+          106,
+          363,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          93,
+          185,
+          372,
+          282
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          91,
+          321,
+          111,
+          390
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          319,
+          294,
+          391
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "8",
+        "bounds": [
+          99,
+          548,
+          235,
+          733
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          97,
+          802,
+          317,
+          864
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          95,
+          902,
+          325,
+          957
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          93,
+          1125,
+          1104,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "animal_bounds": [
+      432,
+      372,
+      1169,
+      810
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          90,
+          106,
+          363,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          92,
+          185,
+          373,
+          282
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          91,
+          322,
+          112,
+          390
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          319,
+          294,
+          390
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "7",
+        "bounds": [
+          104,
+          552,
+          225,
+          729
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          99,
+          801,
+          317,
+          864
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          96,
+          902,
+          327,
+          957
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          93,
+          1125,
+          1104,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "animal_bounds": [
+      468,
+      371,
+      1042,
+      1007
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          84,
+          106,
+          357,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          85,
+          204,
+          365,
+          282
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          85,
+          321,
+          113,
+          390
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          320,
+          286,
+          390
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "6",
+        "bounds": [
+          95,
+          548,
+          228,
+          732
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          91,
+          801,
+          312,
+          864
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          90,
+          902,
+          322,
+          957
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          88,
+          1125,
+          1097,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "animal_bounds": [
+      435,
+      428,
+      1154,
+      926
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          79,
+          106,
+          351,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          82,
+          204,
+          362,
+          282
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          80,
+          321,
+          113,
+          389
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          319,
+          283,
+          390
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "5",
+        "bounds": [
+          91,
+          552,
+          218,
+          732
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          87,
+          801,
+          308,
+          864
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          85,
+          902,
+          319,
+          956
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          82,
+          1125,
+          1093,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "animal_bounds": [
+      458,
+      195,
+      1129,
+      969
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          79,
+          106,
+          353,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          82,
+          204,
+          360,
+          282
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          81,
+          321,
+          113,
+          389
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          320,
+          282,
+          390
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "4",
+        "bounds": [
+          89,
+          548,
+          226,
+          724
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          89,
+          792,
+          311,
+          855
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          86,
+          891,
+          320,
+          946
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          83,
+          1125,
+          1094,
+          1180
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "animal_bounds": [
+      408,
+      467,
+      1119,
+      985
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          97,
+          104,
+          372,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          99,
+          199,
+          378,
+          278
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          99,
+          317,
+          113,
+          386
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          316,
+          301,
+          386
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "3",
+        "bounds": [
+          113,
+          545,
+          249,
+          732
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          109,
+          802,
+          326,
+          865
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          106,
+          907,
+          336,
+          961
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          101,
+          1133,
+          1111,
+          1188
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "animal_bounds": [
+      584,
+      278,
+      1181,
+      1057
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          90,
+          104,
+          363,
+          180
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          92,
+          199,
+          372,
+          277
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          91,
+          317,
+          111,
+          386
+        ],
+        "color": "#42E72B",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026]",
+        "bounds": [
+          99,
+          316,
+          293,
+          388
+        ],
+        "color": "#00ACEE",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2",
+        "bounds": [
+          105,
+          546,
+          231,
+          729
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DAYS",
+        "bounds": [
+          97,
+          802,
+          316,
+          866
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "TO GO",
+        "bounds": [
+          96,
+          907,
+          323,
+          961
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      },
+      {
+        "text": "September 29 \u00b7 San Francisco",
+        "bounds": [
+          91,
+          1133,
+          1099,
+          1189
+        ],
+        "color": "#FAFAFA",
+        "font": "Menlo.ttc"
+      }
+    ]
+  },
+  {
+    "day": 1,
+    "animal_bounds": [
+      125,
+      307,
+      1100,
+      763
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          84,
+          397,
+          174
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          754,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          90,
+          184,
+          113,
+          268
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          125,
+          196,
+          335,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          346,
+          184,
+          368,
+          268
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "1",
+        "bounds": [
+          928,
+          764,
+          1021,
+          986
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "day to go",
+        "bounds": [
+          854,
+          1009,
+          1184,
+          1085
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          92,
+          1173,
+          348,
+          1211
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          366,
+          1183,
+          379,
+          1197
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          397,
+          1173,
+          641,
+          1203
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  },
+  {
+    "day": "TODAY",
+    "animal_bounds": [
+      113,
+      364,
+      1199,
+      831
+    ],
+    "text": [
+      {
+        "text": "OpenAI",
+        "bounds": [
+          86,
+          84,
+          397,
+          173
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "DevDay",
+        "bounds": [
+          425,
+          85,
+          755,
+          174
+        ],
+        "color": "#0089FF",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "[",
+        "bounds": [
+          89,
+          184,
+          113,
+          268
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "2026",
+        "bounds": [
+          125,
+          196,
+          334,
+          260
+        ],
+        "color": "#43D51D",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "]",
+        "bounds": [
+          345,
+          184,
+          368,
+          268
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "TODAY",
+        "bounds": [
+          201,
+          899,
+          1083,
+          1086
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial Bold.ttf"
+      },
+      {
+        "text": "September 29",
+        "bounds": [
+          91,
+          1172,
+          348,
+          1210
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "\u00b7",
+        "bounds": [
+          365,
+          1182,
+          379,
+          1196
+        ],
+        "color": "#FF8900",
+        "font": "Arial.ttf"
+      },
+      {
+        "text": "San Francisco",
+        "bounds": [
+          396,
+          1172,
+          641,
+          1202
+        ],
+        "color": "#FAFAFA",
+        "font": "Arial.ttf"
+      }
+    ]
+  }
+]

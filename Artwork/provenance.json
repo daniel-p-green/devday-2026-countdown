@@ -1,0 +1,266 @@
+[
+  {
+    "asset": "Animal21",
+    "source_filename": "openai_devday_21_square.png",
+    "source_sha256": "7a3cfd1d60091b04bbe97758744c254a5e1466dc8de2ba2bfd8fd62c03c0b204",
+    "bounds_at_1280": [
+      116,
+      422,
+      694,
+      946
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal20",
+    "source_filename": "openai_devday_20_square.png",
+    "source_sha256": "962cdd5ef79ae5c90e1650c91ec6a8fc537fb96b451feb053d73bee1403c013b",
+    "bounds_at_1280": [
+      594,
+      623,
+      1211,
+      973
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal19",
+    "source_filename": "openai_devday_19_square.png",
+    "source_sha256": "2334ca06a5dd6d335a800994b3ed8f634f47a654c51f109e13caccce2a6c389d",
+    "bounds_at_1280": [
+      250,
+      372,
+      1164,
+      733
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal18",
+    "source_filename": "openai_devday_18_square.png",
+    "source_sha256": "fe1c596cbdc6c846b7f494eda79a55ebb1281364a5a51c13c02e4e26314d5af0",
+    "bounds_at_1280": [
+      344,
+      317,
+      936,
+      732
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal17",
+    "source_filename": "openai_devday_17_square.png",
+    "source_sha256": "d9895648ac0000d7775113be209c5f52d23d23ffa00a647d1ef793793166893d",
+    "bounds_at_1280": [
+      118,
+      786,
+      648,
+      977
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal16",
+    "source_filename": "openai_devday_16_square.png",
+    "source_sha256": "ce00add2896d9a9e28dedcbb35f259aa509a62ca4e2c48c7d996b0ee60852afd",
+    "bounds_at_1280": [
+      128,
+      426,
+      713,
+      942
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal15",
+    "source_filename": "openai_devday_15_square.png",
+    "source_sha256": "e7b6775be3e02ae90c27909896b02d2a96f6d37f93fbb73fecee32abfb72be46",
+    "bounds_at_1280": [
+      111,
+      422,
+      703,
+      967
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal14",
+    "source_filename": "openai_devday_14_square.png",
+    "source_sha256": "123e6b49e6b793347884198b1ebbe7be2c8771418671e1b2ac30ce896a2d244d",
+    "bounds_at_1280": [
+      378,
+      312,
+      902,
+      753
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal13",
+    "source_filename": "openai_devday_13_square.png",
+    "source_sha256": "9ee4ab2e4e4add2d457740fc5507c5a8799217a68f4d91dbe6d37974e1e0f369",
+    "bounds_at_1280": [
+      219,
+      221,
+      1193,
+      898
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal12",
+    "source_filename": "openai_devday_12_square.png",
+    "source_sha256": "8d070ccf2e29b189ede33967c09be50f56dac8d2e32ee74e5c7f7efee1da0982",
+    "bounds_at_1280": [
+      241,
+      660,
+      1040,
+      1016
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal11",
+    "source_filename": "openai_devday_11_square.png",
+    "source_sha256": "bc133e486d7c7b240f31a51b48af8ac457f5c83a63c828440d33cdf6c519afd9",
+    "bounds_at_1280": [
+      471,
+      612,
+      1154,
+      914
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal10",
+    "source_filename": "openai_devday_10_square.png",
+    "source_sha256": "848b4eee4875aea44355d0487f64d79d8687766a3d7958f599eeb85b95ff6489",
+    "bounds_at_1280": [
+      425,
+      313,
+      1142,
+      958
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal9",
+    "source_filename": "openai_devday_9_square.png",
+    "source_sha256": "ed04aa2ea1b1c5b06caba67fb69931843240b6cc59815be72a710267f0104ac2",
+    "bounds_at_1280": [
+      756,
+      192,
+      1165,
+      1054
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal8",
+    "source_filename": "openai_devday_8_square.png",
+    "source_sha256": "1c1cd6128ad2accf5f7188ff8dac6cd897c809539c675374760c308eb0a3a2f3",
+    "bounds_at_1280": [
+      507,
+      399,
+      1032,
+      956
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal7",
+    "source_filename": "openai_devday_7_square.png",
+    "source_sha256": "b544c96c41c7b1f6ad8540d75d71a13952685944e51cae3a87f80d53c458381d",
+    "bounds_at_1280": [
+      432,
+      372,
+      1169,
+      810
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal6",
+    "source_filename": "openai_devday_6_square.png",
+    "source_sha256": "9bce49cb7828f2a4bad3fc6604f01ea2e436965f6f67d0477d588345780fed14",
+    "bounds_at_1280": [
+      468,
+      371,
+      1042,
+      1007
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal5",
+    "source_filename": "openai_devday_5_square.png",
+    "source_sha256": "6508bf2da079d7d163caa56c2a551c87853258ca380f534c151a0576ec4ee4fa",
+    "bounds_at_1280": [
+      435,
+      428,
+      1154,
+      926
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal4",
+    "source_filename": "openai_devday_4_square.png",
+    "source_sha256": "22383c934e41db1a37d101d11959061bbbdee6a420a1e4472178bc79c192a87f",
+    "bounds_at_1280": [
+      458,
+      195,
+      1129,
+      969
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal3",
+    "source_filename": "openai_devday_3_square.png",
+    "source_sha256": "ce1e17920705a5f0f21dc2b5257bf7933d8ce611d355a0ece5cb2a48f387eed5",
+    "bounds_at_1280": [
+      408,
+      467,
+      1119,
+      985
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal2",
+    "source_filename": "openai_devday_2_square.png",
+    "source_sha256": "f42eec991f8a5f43343adc66bcd82cd571fc1a22a33bfed63aaa982539a3114b",
+    "bounds_at_1280": [
+      584,
+      278,
+      1181,
+      1057
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "Animal1",
+    "source_filename": "openai_devday_1_square.png",
+    "source_sha256": "d658672c43891ac83fdba32d68349eb6555fac16c696dd97074715fa18398d90",
+    "bounds_at_1280": [
+      125,
+      307,
+      1100,
+      763
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  },
+  {
+    "asset": "AnimalTODAY",
+    "source_filename": "openai_devday_TODAY_square.png",
+    "source_sha256": "ada82d97f199406060e36788d8f6efd4694d1cb416494eb96698aded390dc79c",
+    "bounds_at_1280": [
+      113,
+      364,
+      1199,
+      831
+    ],
+    "method": "source color masks, light contour smoothing, Potrace Bezier curves; no generative reinterpretation"
+  }
+]

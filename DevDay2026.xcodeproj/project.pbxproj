@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071F616BB7CAB839907E8429 /* DevDayiOSWidget.appex in Embed Widget Extension */ = {isa = PBXBuildFile; fileRef = 88F30F6584008A2B68EA473D /* DevDayiOSWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		100437229CC68EF06D5C45F2 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD2ACA054282AB0F9F3F8B /* Attendance.swift */; };
+		181A2B48F29C5A4D349BD1E1 /* NativeShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749AD0CAA4A044B9A52F9110 /* NativeShareButton.swift */; };
+		19B955FEB9063980F368F74D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F09DCAADCEA75A5A8695B4 /* Cocoa.framework */; };
+		1D93941E71045C816E077B5A /* DevDayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF882D669B42F1686A72787 /* DevDayWidget.swift */; };
+		28056F29BA89124168294B21 /* DisplaySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627E8F79FE6F765C9262E1D /* DisplaySettings.swift */; };
+		2A7A9D871167BEB9808AA3F6 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B3F1A05F1021DC36C3B65 /* ShareCardView.swift */; };
+		3C2976E7B30A53B82BF48C3F /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2423C080A7423552B7D6991F /* Countdown.swift */; };
+		46BA502D0567BA77B05418F1 /* CountdownClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67940447133EC98FACF53ABC /* CountdownClock.swift */; };
+		4AF2D05FA5AF5387211D5A44 /* CalendarFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB00D205D50D4746A072AC0 /* CalendarFace.swift */; };
+		4F59D8DD076C566432C98374 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2423C080A7423552B7D6991F /* Countdown.swift */; };
+		541D2579774EF1230F210D05 /* CountdownClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67940447133EC98FACF53ABC /* CountdownClock.swift */; };
+		56F95AB191FAD5786C955CBA /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD2ACA054282AB0F9F3F8B /* Attendance.swift */; };
+		67D7D61E4D052A26E65DB718 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2423C080A7423552B7D6991F /* Countdown.swift */; };
+		6D5BB4E9244FCB78AEF123C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFBC895AD5C4BCCA5718BDA /* Foundation.framework */; };
+		7713404640063669F8FEEF8F /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 58E46AB3A31AF5CFB78CABC7 /* Assets.xcassets */; };
+		81E57BC29F1F311BD63006C2 /* CalendarFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB00D205D50D4746A072AC0 /* CalendarFace.swift */; };
+		A13D30C1D509E797C759678F /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD2ACA054282AB0F9F3F8B /* Attendance.swift */; };
+		A814BDB17B52192B3F1C07E1 /* CalendarFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB00D205D50D4746A072AC0 /* CalendarFace.swift */; };
+		A8DE24E14E623280B5E2CED7 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 58E46AB3A31AF5CFB78CABC7 /* Assets.xcassets */; };
+		AAC0438943DFAE9B3725EF7C /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2423C080A7423552B7D6991F /* Countdown.swift */; };
+		ABA3FBB7B4C2242910225175 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 58E46AB3A31AF5CFB78CABC7 /* Assets.xcassets */; };
+		B55E6EC561B2BC6B325DF2C2 /* DevDayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF882D669B42F1686A72787 /* DevDayWidget.swift */; };
+		BB067738870D77254090BFF2 /* CalendarFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB00D205D50D4746A072AC0 /* CalendarFace.swift */; };
+		C0ACB628BD03577F28950586 /* DevDayMacWidget.appex in Embed Widget Extension */ = {isa = PBXBuildFile; fileRef = 19E1752E01F18459EFE20D27 /* DevDayMacWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0C4715C5CDB71CB870567B6 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B3F1A05F1021DC36C3B65 /* ShareCardView.swift */; };
+		CEDC98045295F359267E0806 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD2ACA054282AB0F9F3F8B /* Attendance.swift */; };
+		D23D877B581A40364CF7C13F /* DevDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3474F0C31C222BE2E103 /* DevDayApp.swift */; };
+		D65A4ABF7C998E1F216C7375 /* NativeShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749AD0CAA4A044B9A52F9110 /* NativeShareButton.swift */; };
+		E3FE42A7BFDB30FAAB7A5863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFBC895AD5C4BCCA5718BDA /* Foundation.framework */; };
+		EA52CD3E8233163FA724BD73 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 58E46AB3A31AF5CFB78CABC7 /* Assets.xcassets */; };
+		EF36E1689A16C5914427D8B8 /* DevDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE3474F0C31C222BE2E103 /* DevDayApp.swift */; };
+		F2FB5871B8D282E0A8CF0BBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F09DCAADCEA75A5A8695B4 /* Cocoa.framework */; };
+		F75389435EC018D83A5342C0 /* DisplaySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627E8F79FE6F765C9262E1D /* DisplaySettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8604F603F43FA54CF487DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C49142383D2F26C8CCB2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7001B8E4F9620D7E68027926;
+			remoteInfo = DevDayMacWidget;
+		};
+		EBDACB9F2C1518A5BDE002CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C49142383D2F26C8CCB2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA096325F010086A022F00D;
+			remoteInfo = DevDayiOSWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		35865B3D1CDA436D9E6C2E18 /* Embed Widget Extension */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0ACB628BD03577F28950586 /* DevDayMacWidget.appex in Embed Widget Extension */,
+			);
+			name = "Embed Widget Extension";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B934912689673CCB2E0BB2BD /* Embed Widget Extension */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				071F616BB7CAB839907E8429 /* DevDayiOSWidget.appex in Embed Widget Extension */,
+			);
+			name = "Embed Widget Extension";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19E1752E01F18459EFE20D27 /* DevDayMacWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevDayMacWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB00D205D50D4746A072AC0 /* CalendarFace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarFace.swift; path = Shared/CalendarFace.swift; sourceTree = "<group>"; };
+		1FFBC895AD5C4BCCA5718BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2423C080A7423552B7D6991F /* Countdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Countdown.swift; path = Shared/Countdown.swift; sourceTree = "<group>"; };
+		46FD2ACA054282AB0F9F3F8B /* Attendance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attendance.swift; path = Shared/Attendance.swift; sourceTree = "<group>"; };
+		58E46AB3A31AF5CFB78CABC7 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Shared/Assets.xcassets; sourceTree = "<group>"; };
+		674340A86D46519B29063158 /* DevDayMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevDayMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67940447133EC98FACF53ABC /* CountdownClock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownClock.swift; path = App/CountdownClock.swift; sourceTree = "<group>"; };
+		749AD0CAA4A044B9A52F9110 /* NativeShareButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeShareButton.swift; path = App/NativeShareButton.swift; sourceTree = "<group>"; };
+		74F09DCAADCEA75A5A8695B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		88F30F6584008A2B68EA473D /* DevDayiOSWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevDayiOSWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7B3F1A05F1021DC36C3B65 /* ShareCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareCardView.swift; path = App/ShareCardView.swift; sourceTree = "<group>"; };
+		CBF882D669B42F1686A72787 /* DevDayWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevDayWidget.swift; path = Widget/DevDayWidget.swift; sourceTree = "<group>"; };
+		D5973944B0D41DD1AD18ADD7 /* DevDayiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevDayiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBE3474F0C31C222BE2E103 /* DevDayApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevDayApp.swift; path = App/DevDayApp.swift; sourceTree = "<group>"; };
+		E627E8F79FE6F765C9262E1D /* DisplaySettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplaySettings.swift; path = App/DisplaySettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F0817AAAE764886789E633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB5871B8D282E0A8CF0BBD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786CD6C6F5C3532DAD90A800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FE42A7BFDB30FAAB7A5863 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59F9128517D20DEF20F966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5BB4E9244FCB78AEF123C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3753791C82FDFADAB27E3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B955FEB9063980F368F74D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A65CCAD2207A98B6190EE3A /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				74F09DCAADCEA75A5A8695B4 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		A39E7E66FD34F22219E718FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5973944B0D41DD1AD18ADD7 /* DevDayiOS.app */,
+				88F30F6584008A2B68EA473D /* DevDayiOSWidget.appex */,
+				674340A86D46519B29063158 /* DevDayMac.app */,
+				19E1752E01F18459EFE20D27 /* DevDayMacWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D6AAF266A295280A6433D6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1FFBC895AD5C4BCCA5718BDA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3B676798D02788B1CDEA2FB = {
+			isa = PBXGroup;
+			children = (
+				A39E7E66FD34F22219E718FD /* Products */,
+				F4BAE9CCEA64F95A5360CC6C /* Frameworks */,
+				2423C080A7423552B7D6991F /* Countdown.swift */,
+				46FD2ACA054282AB0F9F3F8B /* Attendance.swift */,
+				1BB00D205D50D4746A072AC0 /* CalendarFace.swift */,
+				58E46AB3A31AF5CFB78CABC7 /* Assets.xcassets */,
+				E627E8F79FE6F765C9262E1D /* DisplaySettings.swift */,
+				67940447133EC98FACF53ABC /* CountdownClock.swift */,
+				749AD0CAA4A044B9A52F9110 /* NativeShareButton.swift */,
+				CB7B3F1A05F1021DC36C3B65 /* ShareCardView.swift */,
+				DDBE3474F0C31C222BE2E103 /* DevDayApp.swift */,
+				CBF882D669B42F1686A72787 /* DevDayWidget.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BAE9CCEA64F95A5360CC6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D6AAF266A295280A6433D6 /* iOS */,
+				2A65CCAD2207A98B6190EE3A /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7001B8E4F9620D7E68027926 /* DevDayMacWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF07902D6ABB73CE4EA061F /* Build configuration list for PBXNativeTarget "DevDayMacWidget" */;
+			buildPhases = (
+				C3CE243C9FC1F6117912CF2D /* Sources */,
+				F3753791C82FDFADAB27E3AE /* Frameworks */,
+				155FDFD7F5DE2A2509C0E024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevDayMacWidget;
+			productName = DevDayMacWidget;
+			productReference = 19E1752E01F18459EFE20D27 /* DevDayMacWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7EA096325F010086A022F00D /* DevDayiOSWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0ACBD69360EC7BCED292C34 /* Build configuration list for PBXNativeTarget "DevDayiOSWidget" */;
+			buildPhases = (
+				C946F5EB4ED0841756C3D32E /* Sources */,
+				E59F9128517D20DEF20F966B /* Frameworks */,
+				3273CAFA2618485FBE7740EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevDayiOSWidget;
+			productName = DevDayiOSWidget;
+			productReference = 88F30F6584008A2B68EA473D /* DevDayiOSWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B6002195367AE77A0D0D94D1 /* DevDayMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538487692A6E6836F2B25FD3 /* Build configuration list for PBXNativeTarget "DevDayMac" */;
+			buildPhases = (
+				F05B4F6BE5D55837FEBDDAA7 /* Sources */,
+				54F0817AAAE764886789E633 /* Frameworks */,
+				C681543D97E56F754E865CFA /* Resources */,
+				35865B3D1CDA436D9E6C2E18 /* Embed Widget Extension */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8975024CDCF7C162A2CC192 /* PBXTargetDependency */,
+			);
+			name = DevDayMac;
+			productName = DevDayMac;
+			productReference = 674340A86D46519B29063158 /* DevDayMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F61243692ABFB02E3744B158 /* DevDayiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED09B679CA58F2D5FE3CB58 /* Build configuration list for PBXNativeTarget "DevDayiOS" */;
+			buildPhases = (
+				F112F0C3FAAE8515578D2716 /* Sources */,
+				786CD6C6F5C3532DAD90A800 /* Frameworks */,
+				350D90B3436DAC39FA2046DB /* Resources */,
+				B934912689673CCB2E0BB2BD /* Embed Widget Extension */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8FD3336DD411AE24F746A97 /* PBXTargetDependency */,
+			);
+			name = DevDayiOS;
+			productName = DevDayiOS;
+			productReference = D5973944B0D41DD1AD18ADD7 /* DevDayiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C49142383D2F26C8CCB2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 555C41D8651776790DA2289A /* Build configuration list for PBXProject "DevDay2026" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B676798D02788B1CDEA2FB;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = A39E7E66FD34F22219E718FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61243692ABFB02E3744B158 /* DevDayiOS */,
+				7EA096325F010086A022F00D /* DevDayiOSWidget */,
+				B6002195367AE77A0D0D94D1 /* DevDayMac */,
+				7001B8E4F9620D7E68027926 /* DevDayMacWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155FDFD7F5DE2A2509C0E024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3273CAFA2618485FBE7740EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350D90B3436DAC39FA2046DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C681543D97E56F754E865CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3CE243C9FC1F6117912CF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC0438943DFAE9B3725EF7C /* Countdown.swift in Sources */,
+				A13D30C1D509E797C759678F /* Attendance.swift in Sources */,
+				81E57BC29F1F311BD63006C2 /* CalendarFace.swift in Sources */,
+				A8DE24E14E623280B5E2CED7 /* Assets.xcassets in Sources */,
+				B55E6EC561B2BC6B325DF2C2 /* DevDayWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C946F5EB4ED0841756C3D32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D7D61E4D052A26E65DB718 /* Countdown.swift in Sources */,
+				CEDC98045295F359267E0806 /* Attendance.swift in Sources */,
+				A814BDB17B52192B3F1C07E1 /* CalendarFace.swift in Sources */,
+				ABA3FBB7B4C2242910225175 /* Assets.xcassets in Sources */,
+				1D93941E71045C816E077B5A /* DevDayWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05B4F6BE5D55837FEBDDAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2976E7B30A53B82BF48C3F /* Countdown.swift in Sources */,
+				100437229CC68EF06D5C45F2 /* Attendance.swift in Sources */,
+				4AF2D05FA5AF5387211D5A44 /* CalendarFace.swift in Sources */,
+				7713404640063669F8FEEF8F /* Assets.xcassets in Sources */,
+				F75389435EC018D83A5342C0 /* DisplaySettings.swift in Sources */,
+				46BA502D0567BA77B05418F1 /* CountdownClock.swift in Sources */,
+				181A2B48F29C5A4D349BD1E1 /* NativeShareButton.swift in Sources */,
+				C0C4715C5CDB71CB870567B6 /* ShareCardView.swift in Sources */,
+				EF36E1689A16C5914427D8B8 /* DevDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112F0C3FAAE8515578D2716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F59D8DD076C566432C98374 /* Countdown.swift in Sources */,
+				56F95AB191FAD5786C955CBA /* Attendance.swift in Sources */,
+				BB067738870D77254090BFF2 /* CalendarFace.swift in Sources */,
+				EA52CD3E8233163FA724BD73 /* Assets.xcassets in Sources */,
+				28056F29BA89124168294B21 /* DisplaySettings.swift in Sources */,
+				541D2579774EF1230F210D05 /* CountdownClock.swift in Sources */,
+				D65A4ABF7C998E1F216C7375 /* NativeShareButton.swift in Sources */,
+				2A7A9D871167BEB9808AA3F6 /* ShareCardView.swift in Sources */,
+				D23D877B581A40364CF7C13F /* DevDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8FD3336DD411AE24F746A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DevDayiOSWidget;
+			target = 7EA096325F010086A022F00D /* DevDayiOSWidget */;
+			targetProxy = EBDACB9F2C1518A5BDE002CC /* PBXContainerItemProxy */;
+		};
+		F8975024CDCF7C162A2CC192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DevDayMacWidget;
+			target = 7001B8E4F9620D7E68027926 /* DevDayMacWidget */;
+			targetProxy = C8604F603F43FA54CF487DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		113F89BDCC368365B4DAE0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3923C972C9F8364AB49E4862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.mac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		573649079F178C04591DB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = App/Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.mac.widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B37BD7723910461AF9559C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = App/Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.mac.widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68CADB6160FF91D0444BF54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.ios;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69B7E424341405546D4D7070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.ios.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6AF9F0684F0F6CD84D2003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.ios;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849A9833B53FD6D0A65345CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.mac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD652C7E91905FB87C7D55A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1E802308F2189268F01DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DevDay 2026";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = community.devday.countdown.ios.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538487692A6E6836F2B25FD3 /* Build configuration list for PBXNativeTarget "DevDayMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3923C972C9F8364AB49E4862 /* Release */,
+				849A9833B53FD6D0A65345CC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C41D8651776790DA2289A /* Build configuration list for PBXProject "DevDay2026" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F89BDCC368365B4DAE0F1 /* Debug */,
+				BD652C7E91905FB87C7D55A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED09B679CA58F2D5FE3CB58 /* Build configuration list for PBXNativeTarget "DevDayiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6AF9F0684F0F6CD84D2003 /* Release */,
+				68CADB6160FF91D0444BF54A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF07902D6ABB73CE4EA061F /* Build configuration list for PBXNativeTarget "DevDayMacWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B37BD7723910461AF9559C9 /* Release */,
+				573649079F178C04591DB152 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0ACBD69360EC7BCED292C34 /* Build configuration list for PBXNativeTarget "DevDayiOSWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E802308F2189268F01DCEB /* Release */,
+				69B7E424341405546D4D7070 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C49142383D2F26C8CCB2F2 /* Project object */;
+}

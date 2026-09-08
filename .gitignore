@@ -1,0 +1,11 @@
+.DS_Store
+DerivedData/
+build/
+Exports/
+*.xcuserstate
+xcuserdata/
+*.xcarchive
+*.ipa
+*.dSYM/
+.env*
+!.env.example

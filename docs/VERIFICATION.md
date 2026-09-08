@@ -1,0 +1,26 @@
+# Verification
+
+Checked locally on September 8, 2026 with Xcode 26.6, Swift 6.3.3, macOS 26.6.2, and an iOS 26.5 iPhone simulator.
+
+## Passed
+
+- Mac app and WidgetKit extension compiled.
+- iOS app and WidgetKit extension compiled for the simulator; the companion launched and displayed the card.
+- Date tests: Pacific midnight before/on/after September 29, pre-series dates, all artwork mappings, singular labels, and both daylight-saving transitions.
+- Caption tests: all attendance options, event-day wording, required tags, and no URLs.
+- Mac card context menu, day preview, reset, share preview, and attendance selector exercised.
+- Mac Settings opened from the card with both display options initially off; each option accepted an on state.
+- Mac and iOS native sharing opened from one image-and-caption action. In the simulator, the same share sheet showed the PNG and its Copy action returned the selected caption, confirming the combined payload. No post or message was sent.
+- Mac widget extension registered and appeared in the desktop widget gallery.
+- All 22 square cards and 22 portrait exports rendered. Square compositions were inspected together; portrait composition was reviewed at export size.
+- The repository was scanned for personal filesystem paths and credential strings. No credentials, developer team identifiers, private original paths, or font binaries are included.
+
+## Limits
+
+- Adding the Mac widget to the desktop and inspecting its live appearance still requires confirmation; gallery presence alone is not that check.
+- Dock badge and menu-bar appearance need a final visual check, beyond the Settings state changes.
+- X and Instagram receiving both image and caption has not been tested on physical devices. The receiving app controls which items it accepts. Universal caption prefill is not promised.
+- Physical iPhone/iPad testing, overnight rollover, and wake-from-sleep testing are pending. Automated date-boundary tests are separate from OS refresh timing.
+- No notarized Mac installer, App Store release, or TestFlight build is provided. Development signing and public distribution signing are separate.
+
+A local Xcode compiler-discovery subprocess stalled while writing to its output pipe during later builds. Verification resumed using a temporary wrapper around the same Apple Clang executable that buffered and forwarded its unchanged stdout/stderr. That local workaround is not part of the project or its build settings. Earlier ordinary unsigned builds also passed; clean CI uses the standard commands in the README.
