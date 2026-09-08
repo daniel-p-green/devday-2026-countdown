@@ -15,6 +15,12 @@ This is an **unofficial community project** for DevDay on **September 29, 2026, 
 - **Share image and caption together.** Export a square or a properly composed portrait Story, with a caption for attending in person, following virtually, or simply counting down.
 - **Stay faithful to the artwork.** Original compositions, restored vector illustrations, and crisp vector typography.
 
+## Widget or app?
+
+The **widget** lives on your Mac desktop or iPhone/iPad Home Screen. It keeps showing the live countdown when the companion window is closed.
+
+The small **companion app** installs the widget extension and handles settings, sharing, and optional day previews. The screenshot above shows that companion card. Add the actual widget through the system widget gallery; opening the app by itself does not add it to your desktop or Home Screen.
+
 ## Get started
 
 This repository is a **source release**. There is no notarized Mac installer or TestFlight build yet.
@@ -73,7 +79,7 @@ The app refreshes while running and when it becomes active. Widget timelines inc
 
 ## Develop
 
-The app is written in SwiftUI and WidgetKit. It has no third-party runtime dependencies.
+The app is written in SwiftUI and [WidgetKit](https://developer.apple.com/documentation/widgetkit/creating-a-widget-extension). It has no third-party runtime dependencies.
 
 ```sh
 ./Scripts/test.sh

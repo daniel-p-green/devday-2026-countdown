@@ -9,7 +9,7 @@ struct DisplaySettings: View {
         Form {
             Toggle("Show in Dock", isOn: $showInDock)
             Toggle("Show in menu bar", isOn: $showMenuBar)
-            Text("Leave both off for widget-only. The Dock icon shows the live day count when enabled.")
+            Text("Leave both off for widget-only. Add the widget through desktop Edit Widgets; then close the companion card.")
                 .font(.caption).foregroundStyle(.secondary)
         }
         .toggleStyle(.checkbox)

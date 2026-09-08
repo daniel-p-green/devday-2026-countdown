@@ -9,6 +9,11 @@ final class CountdownClock: ObservableObject {
     private var timer: Timer?
     init() {
         UserDefaults.standard.register(defaults: ["showInDock": false, "showMenuBar": false])
+        #if os(macOS)
+        if let url = Bundle.main.url(forResource: "AppIcon", withExtension: "icns"), let icon = NSImage(contentsOf: url) {
+            NSApplication.shared.applicationIconImage = icon
+        }
+        #endif
         refresh()
         timer = Timer.scheduledTimer(withTimeInterval: 30, repeats: true) { [weak self] _ in
             Task { @MainActor in self?.refresh() }
