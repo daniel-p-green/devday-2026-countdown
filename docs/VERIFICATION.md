@@ -9,7 +9,7 @@ Checked locally on September 8, 2026 with Xcode 26.6, Swift 6.3.3, macOS 26.6.2,
 - Date tests: Pacific midnight before/on/after September 29, pre-series dates, all artwork mappings, singular labels, and both daylight-saving transitions.
 - Caption tests: all attendance options, event-day wording, required tags, and no URLs.
 - Mac card context menu, day preview, reset, share preview, and attendance selector exercised.
-- Mac Settings opened from the card with both display options initially off; each option accepted an on state.
+- Mac Settings opened from the card with both display options initially off; each option accepted an on state. Dock mode was verified through the running app activation policy: regular when enabled, accessory when disabled. Both options were restored to off after testing.
 - Mac and iOS native sharing opened from one image-and-caption action. In the simulator, the same share sheet showed the PNG and its Copy action returned the selected caption, confirming the combined payload. No post or message was sent.
 - Mac widget extension registered and appeared in the desktop widget gallery.
 - All 22 square cards and 22 portrait exports rendered. Square compositions were inspected together; portrait composition was reviewed at export size.
