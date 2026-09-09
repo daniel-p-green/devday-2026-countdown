@@ -7,7 +7,11 @@ struct CalendarFace: View {
         GeometryReader { proxy in
             ZStack {
                 Color.black
-                if story && (0...21).contains(countdown.days) {
+                if countdown.isCommunityNight {
+                    Image(story ? "CommunityNightStory" : "CommunityNightSquare")
+                        .resizable().scaledToFit()
+                        .frame(width: proxy.size.width, height: proxy.size.height)
+                } else if story && (0...21).contains(countdown.days) {
                     StoryFace(countdown: countdown)
                 } else if (0...21).contains(countdown.days) {
                     Image(countdown.days == 0 ? "CardTODAY" : "Card\(countdown.days)")

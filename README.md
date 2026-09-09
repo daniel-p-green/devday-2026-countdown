@@ -4,6 +4,8 @@ A small, unofficial countdown to OpenAI DevDay on September 29, 2026.
 
 ![DevDay countdown on Mac](docs/product.png)
 
+September 16 features a special gold ASCII starfish and Astra-inspired starfield card for GPT-6 Community Night, with 13 days remaining to DevDay.
+
 Daily artwork, desktop and Home Screen widgets, and cards to share. On Mac, you can also show the count in your Dock or menu bar. Everything runs locally, with no account or API key.
 
 ## Run it

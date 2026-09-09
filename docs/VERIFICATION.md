@@ -30,3 +30,7 @@ A local Xcode compiler-discovery subprocess stalled while writing to its output 
 The primary action now copies the image and opens X with the selected caption prefilled. Instructions explain the remaining paste and review step. The system share sheet is available separately as Other sharing options. The selected day stays fixed while sharing is open, keeping the preview, caption, and export consistent across midnight. Mac and iOS builds and the date/caption checks passed. The owner confirmed Instagram receives the image only. A separate Copy caption for Instagram action and instructions now explain that limitation. Pasting into a signed-in X composer and the revised Instagram flow still require end-to-end confirmation.
 
 The direct Save image action was exercised on Mac: the saved PNG was 1080 × 1080 and byte-identical to the rendered share image. Copying the Instagram caption and then opening X was exercised; the caption-copied label correctly reset. Mac and iOS builds passed. The iOS Files export picker still needs a device check.
+
+## September 16 special card
+
+Gold ASCII-style starfish and Astra-inspired starfield added to Day 13 in square and portrait formats. Both exports were rendered through the app view and visually inspected at 1080px wide. Tests confirm activation only on September 16 in Pacific time, including both midnight boundaries, and event-specific captions. Mac and iOS app/widget builds passed. Native widget-host and physical-device checks remain as listed above.

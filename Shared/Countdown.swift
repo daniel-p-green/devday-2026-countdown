@@ -14,10 +14,11 @@ struct Countdown: Equatable, Sendable {
     init(at date: Date = .now) {
         days = Self.calendar.dateComponents([.day], from: Self.calendar.startOfDay(for: date), to: Self.eventDate).day!
     }
+    var isCommunityNight: Bool { days == 13 }
     var headline: String { days < 0 ? "THANK YOU" : days == 0 ? "TODAY" : String(days) }
     var caption: String { days < 0 ? "See you next time" : days == 0 ? "September 29 · San Francisco" : days == 1 ? "day to go" : "days to go" }
     var artwork: String { days <= 0 ? "AnimalTODAY" : "Animal\(min(days, 21))" }
-    var accessibilityLabel: String { days < 0 ? "DevDay 2026 has ended" : days == 0 ? "OpenAI DevDay is today" : "\(days) \(caption) until OpenAI DevDay" }
+    var accessibilityLabel: String { isCommunityNight ? "GPT-6 Community Night, September 16 in San Francisco. 13 days to OpenAI DevDay." : days < 0 ? "DevDay 2026 has ended" : days == 0 ? "OpenAI DevDay is today" : "\(days) \(caption) until OpenAI DevDay" }
     static func date(daysBeforeEvent days: Int) -> Date {
         calendar.date(byAdding: .day, value: -days, to: eventDate)!
     }

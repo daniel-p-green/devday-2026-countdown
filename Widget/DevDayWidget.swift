@@ -25,14 +25,14 @@ struct WidgetFace: View {
             } else {
                 HStack(spacing: 8) {
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("OpenAI DevDay").font(.caption.weight(.medium)).lineLimit(1).minimumScaleFactor(0.7)
+                        Text(day.isCommunityNight ? "GPT-6 Community Night" : "OpenAI DevDay").font(.caption.weight(.medium)).lineLimit(1).minimumScaleFactor(0.7)
                         Spacer(minLength: 2)
                         Text(day.headline).font(.system(size: day.days < 0 ? 24 : day.days == 0 ? 32 : 48, weight: .medium, design: .monospaced)).minimumScaleFactor(0.6).lineLimit(1)
-                        Text(day.days < 0 ? "2026" : day.days == 0 ? "San Francisco" : day.caption).font(.caption)
+                        Text(day.isCommunityNight ? "days to DevDay" : day.days < 0 ? "2026" : day.days == 0 ? "San Francisco" : day.caption).font(.caption)
                         Spacer(minLength: 2)
-                        Text("SEP 29 · 2026").font(.system(size: 9, design: .monospaced)).foregroundStyle(.secondary)
+                        Text(day.isCommunityNight ? "SEP 16 · SAN FRANCISCO" : "SEP 29 · 2026").font(.system(size: 9, design: .monospaced)).foregroundStyle(.secondary)
                     }
-                    if family == .systemMedium { Image(day.artwork).resizable().scaledToFit().frame(maxWidth: 145).accessibilityHidden(true) }
+                    if family == .systemMedium { Image(day.isCommunityNight ? "CommunityNightSquare" : day.artwork).resizable().scaledToFit().frame(maxWidth: 145).accessibilityHidden(true) }
                 }.padding(16).foregroundStyle(.white)
             }
         }

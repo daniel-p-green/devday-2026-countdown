@@ -8,6 +8,14 @@ import Foundation
             precondition(actual == expected, "\(stamp): expected \(expected), got \(actual)")
         }
         check("2026-09-08T19:00:00Z", 21)
+        for (stamp, special) in [("2026-09-16T06:59:59Z", false), ("2026-09-16T07:00:00Z", true), ("2026-09-17T06:59:59Z", true), ("2026-09-17T07:00:00Z", false)] {
+            precondition(Countdown(at: iso.date(from: stamp)!).isCommunityNight == special)
+        }
+        let community = Countdown(at: Countdown.date(daysBeforeEvent: 13))
+        for choice in Attendance.allCases {
+            precondition(choice.caption(for: community).contains("GPT-6 Community Night"))
+            precondition(choice.caption(for: community).contains("September 16"))
+        }
         check("2026-09-29T06:59:59Z", 1)
         check("2026-09-29T07:00:00Z", 0)
         check("2026-09-30T06:59:59Z", 0)
