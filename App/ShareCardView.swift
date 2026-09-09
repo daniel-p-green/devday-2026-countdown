@@ -1,4 +1,5 @@
 import SwiftUI
+import UniformTypeIdentifiers
 #if os(iOS)
 import UIKit
 #else
@@ -10,6 +11,9 @@ struct ShareCardView: View {
     @Environment(\.openURL) private var openURL
     @State private var xStatus: String?
     @State private var captionCopied = false
+    @State private var savingImage = false
+    @State private var imageDocument: ShareImageDocument?
+    @State private var saveStatus: String?
 
     init(countdown: Countdown) {
         _countdown = State(initialValue: countdown)
@@ -52,6 +56,7 @@ struct ShareCardView: View {
                         Text("Instagram shares the image only. Copy the caption below, then paste it in Instagram after adding the image.")
                             .font(.caption).foregroundStyle(.secondary)
                         Button(captionCopied ? "Caption copied" : "Copy caption for Instagram") {
+                            xStatus = nil
                             #if os(macOS)
                             NSPasteboard.general.clearContents()
                             captionCopied = NSPasteboard.general.setString(caption, forType: .string)
@@ -60,6 +65,28 @@ struct ShareCardView: View {
                             captionCopied = true
                             #endif
                         }
+                        Button("Save image…") {
+                            do {
+                                let data = try Data(contentsOf: exportURL)
+                                saveStatus = nil
+                                #if os(macOS)
+                                let panel = NSSavePanel()
+                                panel.allowedContentTypes = [.png]
+                                panel.nameFieldStringValue = exportURL.lastPathComponent
+                                panel.canCreateDirectories = true
+                                if panel.runModal() == .OK, let destination = panel.url {
+                                    try data.write(to: destination, options: .atomic)
+                                    saveStatus = "Image saved."
+                                }
+                                #else
+                                imageDocument = ShareImageDocument(data: data)
+                                savingImage = true
+                                #endif
+                            } catch { saveStatus = "Could not read image: \(error.localizedDescription)" }
+                        }
+                        Text("Save the PNG to a folder or Files, then upload it in Instagram.")
+                            .font(.caption).foregroundStyle(.secondary)
+                        if let saveStatus { Text(saveStatus).font(.caption) }
                         NativeShareButton(imageURL: exportURL, caption: caption)
                             .frame(height: 34)
                     } else if let exportError { Text(exportError).foregroundStyle(.red) }
@@ -76,13 +103,21 @@ struct ShareCardView: View {
         #endif
         .preferredColorScheme(.dark)
         .task(id: story) { render() }
-        .onChange(of: attendance) { _, _ in captionCopied = false }
+        .onChange(of: attendance) { _, _ in captionCopied = false; xStatus = nil }
+        .fileExporter(isPresented: $savingImage, document: imageDocument, contentType: .png,
+                      defaultFilename: exportURL?.deletingPathExtension().lastPathComponent ?? "DevDay2026") { result in
+            switch result {
+            case .success: saveStatus = "Image saved."
+            case .failure(let error): saveStatus = "Could not save image: \(error.localizedDescription)"
+            }
+        }
     }
     @MainActor private func openX() {
         guard let exportURL, let data = try? Data(contentsOf: exportURL) else {
             xStatus = "Could not copy the image. Close sharing and try again."
             return
         }
+        captionCopied = false
         #if os(macOS)
         guard let image = NSImage(data: data) else { return }
         NSPasteboard.general.clearContents()
@@ -102,7 +137,7 @@ struct ShareCardView: View {
         }
     }
     @MainActor func render() {
-        exportURL = nil; exportError = nil
+        exportURL = nil; exportError = nil; saveStatus = nil; xStatus = nil
         let renderer = ImageRenderer(content: CalendarFace(countdown: countdown, story: story).frame(width: 1080, height: story ? 1920 : 1080))
         renderer.scale = 1
         #if os(iOS)
@@ -118,5 +153,21 @@ struct ShareCardView: View {
             try data.write(to: url, options: .atomic)
             exportURL = url
         } catch { exportError = "Could not save image: \(error.localizedDescription)" }
+    }
+}
+
+/// A PNG export works with the Mac save panel and the iOS Files picker.
+struct ShareImageDocument: FileDocument {
+    static var readableContentTypes: [UTType] { [.png] }
+    let data: Data
+    init(data: Data) { self.data = data }
+    init(configuration: ReadConfiguration) throws {
+        guard let data = configuration.file.regularFileContents else {
+            throw CocoaError(.fileReadCorruptFile)
+        }
+        self.data = data
+    }
+    func fileWrapper(configuration: WriteConfiguration) throws -> FileWrapper {
+        FileWrapper(regularFileWithContents: data)
     }
 }
