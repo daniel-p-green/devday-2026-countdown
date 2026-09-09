@@ -18,9 +18,13 @@ Checked locally on September 8, 2026 with Xcode 26.6, Swift 6.3.3, macOS 26.6.2,
 ## Limits
 
 - Adding the Mac widget to the desktop and inspecting its live appearance still requires confirmation; gallery presence alone is not that check.
-- Dock badge and menu-bar appearance need a final visual check, beyond the Settings state changes.
+- The Dock badge was confirmed in the owner-provided screenshot. Menu-bar appearance still needs a final visual check.
 - X and Instagram receiving both image and caption has not been tested on physical devices. The receiving app controls which items it accepts. Universal caption prefill is not promised.
 - Physical iPhone/iPad testing, overnight rollover, and wake-from-sleep testing are pending. Automated date-boundary tests are separate from OS refresh timing.
 - No notarized Mac installer, App Store release, or TestFlight build is provided. Development signing and public distribution signing are separate.
 
 A local Xcode compiler-discovery subprocess stalled while writing to its output pipe during later builds. Verification resumed using a temporary wrapper around the same Apple Clang executable that buffered and forwarded its unchanged stdout/stderr. That local workaround is not part of the project or its build settings. Earlier ordinary unsigned builds also passed; clean CI uses the standard commands in the README.
+
+## Sharing update
+
+The primary action now copies the image and opens X with the selected caption prefilled. Instructions explain the remaining paste and review step. The system share sheet is available separately as Other sharing options. The selected day stays fixed while sharing is open, keeping the preview, caption, and export consistent across midnight. Mac and iOS builds and the date/caption checks passed. The owner confirmed Instagram receives the image only. A separate Copy caption for Instagram action and instructions now explain that limitation. Pasting into a signed-in X composer and the revised Instagram flow still require end-to-end confirmation.

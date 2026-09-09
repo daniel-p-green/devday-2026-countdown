@@ -9,11 +9,11 @@ struct NativeShareButton: NSViewRepresentable {
     let caption: String
     func makeCoordinator() -> Coordinator { Coordinator() }
     func makeNSView(context: Context) -> NSButton {
-        let button = NSButton(title: "Share image + caption", target: context.coordinator, action: #selector(Coordinator.share(_:)))
+        let button = NSButton(title: "Other sharing options…", target: context.coordinator, action: #selector(Coordinator.share(_:)))
         button.bezelStyle = .rounded
         button.image = NSImage(systemSymbolName: "square.and.arrow.up", accessibilityDescription: nil)
         button.imagePosition = .imageLeading
-        button.setAccessibilityLabel("Share image and caption")
+        button.setAccessibilityLabel("Other sharing options")
         return button
     }
     func updateNSView(_ button: NSButton, context: Context) {
@@ -37,7 +37,7 @@ struct NativeShareButton: View {
     let caption: String
     @State private var presenting = false
     var body: some View {
-        Button("Share image + caption", systemImage: "square.and.arrow.up") { presenting = true }
+        Button("Other sharing options…", systemImage: "square.and.arrow.up") { presenting = true }
             .buttonStyle(.borderedProminent)
             .sheet(isPresented: $presenting) { ActivitySheet(imageURL: imageURL, caption: caption) }
     }

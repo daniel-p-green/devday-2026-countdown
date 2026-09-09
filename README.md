@@ -24,7 +24,7 @@ The window pictured above is the companion card for settings and sharing. You ca
 Right-click the card on Mac, or touch and hold on iOS, to preview days or share a card.
 
 - **Display:** Mac Settings has **Show in Dock** and **Show in menu bar** checkboxes. Leave both off for widget-only use.
-- **Share:** Choose a square or portrait Story, then a caption for **Following along**, **In person**, or **Virtually**. One action shares the image and caption with `@OpenAIDevs` and `#DevDay2026`. Caption handling depends on the receiving app.
+- **Share:** Choose a square or portrait Story, then a caption for **Following along**, **In person**, or **Virtually**. **Copy image & open X** opens a post with your caption prefilled and copies the card. Paste the image into the post (⌘V on Mac), review, and post. **Other sharing options** opens the system share sheet. Instagram receives the image only: use **Copy caption for Instagram**, then paste it in Instagram.
 
 The countdown follows San Francisco's timezone. Widget refresh timing is managed by the OS.
 
