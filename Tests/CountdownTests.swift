@@ -32,6 +32,11 @@ import Foundation
                 precondition(!text.hasPrefix("1 days"))
             }
         }
+        let example = Attendance.following.caption(for: Countdown(at: Countdown.date(daysBeforeEvent: 21)))
+        precondition(example == "21 days to @OpenAI DevDay!\nCounting down with @OpenAIDevs.\n#DevDay2026")
+        var intent = URLComponents(string: "https://x.com/intent/tweet")!
+        intent.queryItems = [URLQueryItem(name: "text", value: example)]
+        precondition(URLComponents(url: intent.url!, resolvingAgainstBaseURL: false)?.queryItems?.first?.value == example)
         precondition(Attendance.virtual.caption(for: Countdown(at: Countdown.date(daysBeforeEvent: 0))).contains("online today"))
         print("PASS: date boundaries, event day, post-event, pre-window, artwork range, singular label, DST")
     }

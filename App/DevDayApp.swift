@@ -39,6 +39,7 @@ struct CountdownView: View {
     @AppStorage("showMenuBar") private var showMenuBar = false
     #endif
     @State private var sharing = false
+    @State private var showingAbout = false
     var selected: Countdown { Countdown(at: previewDay.map(Countdown.date(daysBeforeEvent:)) ?? clock.date) }
     var body: some View {
         ZStack {
@@ -49,6 +50,7 @@ struct CountdownView: View {
                 .transition(reduceMotion ? .opacity : .asymmetric(insertion: .opacity, removal: .modifier(active: PageTurn(angle: -88), identity: PageTurn(angle: 0))))
                 .contextMenu {
                     Button("Share this day…", systemImage: "square.and.arrow.up") { sharing = true }
+                    Button("About DevDay Countdown", systemImage: "info.circle") { showingAbout = true }
                     Divider()
                     Button("Previous day", systemImage: "chevron.left") { browse(1) }.disabled(selected.days >= 21)
                     Button("Next day", systemImage: "chevron.right") { browse(-1) }.disabled(selected.days <= 0)
@@ -69,6 +71,7 @@ struct CountdownView: View {
         }
         .preferredColorScheme(.dark)
         .sheet(isPresented: $sharing) { ShareCardView(countdown: selected) }
+        .sheet(isPresented: $showingAbout) { AboutCountdownView() }
         .onChange(of: scenePhase) { _, phase in if phase == .active { clock.refresh() } }
         .onOpenURL { _ in previewDay = nil; clock.refresh() }
     }
@@ -97,3 +100,22 @@ private struct MenuBarCountdown: View {
     }
 }
 #endif
+
+private struct AboutCountdownView: View {
+    @Environment(\.dismiss) private var dismiss
+    var body: some View {
+        VStack(spacing: 18) {
+            Text("DevDay 2026 Countdown").font(.title2.weight(.semibold))
+            Text("An unofficial countdown to OpenAI DevDay.")
+                .foregroundStyle(.secondary).multilineTextAlignment(.center)
+            Link("Made by Daniel Green", destination: URL(string: "https://x.com/dgrreen")!)
+            Text("Not affiliated with or endorsed by OpenAI.")
+                .font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+            Button("Done") { dismiss() }.keyboardShortcut(.defaultAction)
+        }
+        .padding(28)
+        #if os(macOS)
+        .frame(width: 360)
+        #endif
+    }
+}
